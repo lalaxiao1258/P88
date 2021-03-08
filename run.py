@@ -185,7 +185,7 @@ def main ():#line:244
     O0OOOO0OO0OO0O00O =O0OOOO0OO0OO0O00O .json ()['data']#line:249
     
     print ('剩余点数：'+str (O0OOOO0OO0OO0O00O ))#line:250
-    if  "STRT"in os .environ and os .environ ["START"]=='584UYTH888':#line:13
+    if  "START"in os .environ and os .environ ["START"]=='584UYTH888':#line:13
         if int (O0OOOO0OO0OO0O00O )<=2 :#line:251
                 print ('点数不足！！')#line:252
                 time .sleep (5 )#line:253
