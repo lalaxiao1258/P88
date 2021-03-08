@@ -62,7 +62,7 @@ def p_main (OOOOOO00O00OOO0O0 ,O0O000OO000OOOO0O ,OO0O0OO000O0O0000 ):#line:22
             time .sleep (2 )#line:88
             tx_code (O0O00O000000O00OO )#line:89
             time .sleep (4 )#line:90
-            if O0O00O000000O00OO .current_url =='https://pjj.one/home':#line:91
+            if O0O00O000000O00OO .current_url =='https://jc88.me/home':#line:91
                 telegram_bot ("p++",'邀请成功！')#line:92
                 O0O00O000000O00OO .quit ()#line:93
             else :#line:94
