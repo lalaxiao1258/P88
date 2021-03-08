@@ -185,11 +185,11 @@ def main ():#line:244
     O0OOOO0OO0OO0O00O =O0OOOO0OO0OO0O00O .json ()['data']#line:249
     
     print ('剩余点数：'+str (O0OOOO0OO0OO0O00O ))#line:250
-    if  "START"in os .environ and os .environ ["START"]=='584UYTH888':#line:13
+    if  "START" in os .environ and os .environ ["START"] == '584UYTH888':#line:13
         if int (O0OOOO0OO0OO0O00O )<=2 :#line:251
                 print ('点数不足！！')#line:252
                 time .sleep (5 )#line:253
-                telegram_bot ("p++",'点数不足！')#line:254
+                telegram_bot ("p88",'点数不足！')#line:254
                 exit ()#line:255
         else :#line:256
                 print ('start')#line:257
