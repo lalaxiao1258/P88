@@ -63,10 +63,10 @@ def p_main (OOOOOO00O00OOO0O0 ,O0O000OO000OOOO0O ,OO0O0OO000O0O0000 ):#line:22
             tx_code (O0O00O000000O00OO )#line:89
             time .sleep (4 )#line:90
             if O0O00O000000O00OO .current_url =='https://jc88.me/home':#line:91
-                telegram_bot ("p++",'邀请成功！')#line:92
+                telegram_bot ("p88",'邀请成功！')#line:92
                 O0O00O000000O00OO .quit ()#line:93
             else :#line:94
-                telegram_bot ("P++",'邀请失败！')#line:95
+                telegram_bot ("P88",'邀请失败！')#line:95
                 print ('邀请失败！')#line:96
 def telegram_bot (OO0O0OOOOO00O0O00 ,O00000O0O000OOOO0 ):#line:97
     print ("\n")#line:98
