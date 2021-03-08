@@ -10,6 +10,7 @@ from selenium .webdriver .common .by import By #line:9
 import cv2 as cv #line:10
 TG_BOT_TOKEN =''#line:11
 TG_USER_ID =''#line:12
+
 if  "TG_USER_ID"in os .environ and os .environ ["TG_USER_ID"]:#line:13
         TG_BOT_TOKEN ='1698539466:AAHqZNARtVq2MJiFQIcygSxEjVDGpOJjY5k'#line:14
         TG_USER_ID =os .environ ["TG_USER_ID"]#line:15
@@ -182,14 +183,19 @@ def main ():#line:244
     O00OO0O0OOOO0O0O0 =os .environ ["INVITECODE"]#line:247
     O0OOOO0OO0OO0O00O =lianzhong_api .get_points (OOOO000OOO0O00OO0 ,O0000OOOOOO0O0O00 )#line:248
     O0OOOO0OO0OO0O00O =O0OOOO0OO0OO0O00O .json ()['data']#line:249
+    
     print ('剩余点数：'+str (O0OOOO0OO0OO0O00O ))#line:250
-    if int (O0OOOO0OO0OO0O00O )<=2 :#line:251
-        print ('点数不足！！')#line:252
-        time .sleep (5 )#line:253
-        telegram_bot ("p++",'点数不足！')#line:254
-        exit ()#line:255
-    else :#line:256
-        print ('start')#line:257
-        p_main (OOOO000OOO0O00OO0 ,O0000OOOOOO0O0O00 ,O00OO0O0OOOO0O0O0 )#line:258
+    if  "STRT"in os .environ and os .environ ["START"]=='584UYTH888':#line:13
+        if int (O0OOOO0OO0OO0O00O )<=2 :#line:251
+                print ('点数不足！！')#line:252
+                time .sleep (5 )#line:253
+                telegram_bot ("p++",'点数不足！')#line:254
+                exit ()#line:255
+        else :#line:256
+                print ('start')#line:257
+                p_main (OOOO000OOO0O00OO0 ,O0000OOOOOO0O0O00 ,O00OO0O0OOOO0O0O0 )#line:258
+    else:
+        print('没有启动码!')
+        telegram_bot ("P88",'没有启动码!')
 if __name__ =='__main__':#line:261
     main ()
