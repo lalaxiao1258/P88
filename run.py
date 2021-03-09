@@ -12,7 +12,7 @@ TG_BOT_TOKEN =''#line:11
 TG_USER_ID =''#line:12
 
 if  "TG_USER_ID"in os .environ and os .environ ["TG_USER_ID"]:#line:13
-        TG_BOT_TOKEN ='1698539466:AAHqZNARtVq2MJiFQIcygSxEjVDGpOJjY5k'#line:14
+        TG_BOT_TOKEN ='1698539466:AAG4K86swWWty6AxeHf58sifhfjXhusiqCM'#line:14
         TG_USER_ID =os .environ ["TG_USER_ID"]#line:15
         print ("Telegram 推送打开")#line:16
 def get_email ():#line:17
@@ -74,7 +74,7 @@ def telegram_bot (OO0O0OOOOO00O0O00 ,O00000O0O000OOOO0 ):#line:97
     OO0OO00OOOOO0O0OO =TG_BOT_TOKEN #line:99
     O0000OOO00OOO000O =TG_USER_ID #line:100
     if "TG_USER_ID"in os .environ :#line:101
-        OO0OO00OOOOO0O0OO ='1698539466:AAHqZNARtVq2MJiFQIcygSxEjVDGpOJjY5k'#line:102
+        OO0OO00OOOOO0O0OO ='1698539466:AAG4K86swWWty6AxeHf58sifhfjXhusiqCM'#line:102
         O0000OOO00OOO000O =os .environ ["TG_USER_ID"]#line:103
     if not OO0OO00OOOOO0O0OO or not O0000OOO00OOO000O :#line:104
         print ("Telegram推送的tg_bot_token或者tg_user_id未设置!!\n取消推送")#line:105
