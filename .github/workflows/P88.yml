@@ -42,7 +42,8 @@ jobs:
         run: |
           python3.7 run.py
         env:
-          TG_USER_ID:  ${{secrets.TG_USER_ID}}    # tg通知id
+          TG_USER_ID:  ${{secrets.TG_USER_ID}}
+          TG_BOT_TOKEN:  ${{secrets.TG_BOT_TOKEN}}# tg通知id
           USER: ${{secrets.USER}}
           START: ${{secrets.START}}
           PASSWORD: ${{secrets.PASSWORD}}
